@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TO DO LIST</title>
+    <script src="script.js" defer></script>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="card">
+      <div class="header">
+        <input
+          id="addNewTaskInput"
+          class="addNewTaskInput"
+          placeholder="Add new task"
+        />
+      </div>
+      <div>
+        <label class="label">To Do</label>
+        <label id="todolabel" class="text none"
+          >You don't have any tasks!</label
+        >
+        <ul id="toDoList"></ul>
+        <br />
+        <label class="label">Completed</label>
+        <ul id="completedList"></ul>
+      </div>
+    </div>
+  </body>
+</html>

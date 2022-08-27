@@ -1,0 +1,92 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+
+  margin: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.card {
+  border: 1px solid black;
+
+  width: 75%;
+
+  padding: 75px 125px;
+
+  background-color: #38404b;
+
+  border-radius: 65px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.addNewTaskInput {
+  height: 50px;
+  max-width: 400px;
+  width: 100%;
+
+  font-size: 18px;
+  color: #94adcf;
+  background-color: #38404b;
+
+  box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.5);
+  border-radius: 65px;
+  outline: none;
+  border: none;
+
+  padding: 20px;
+}
+
+.label {
+  color: #94adcf;
+  font-size: 28px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.listElement {
+  padding: 10px;
+  box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.5);
+  border-radius: 65px;
+
+  display: flex;
+  align-items: center;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.none {
+  display: none;
+}
+
+.toDoLabel {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.text {
+  font-size: 18px;
+  color: #94adcf;
+}
